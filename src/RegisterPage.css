@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0A282E;
+    background-size: cover;
+    border-radius: 50px;
+  }
+  
+#register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+#form-card
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('C:\Users\Piyumal\Desktop\SA Skill Swap\SkillSwap\frontend\public\3.jfif');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  padding: 50px;
+  border-top-left-radius: 95px;
+  border-bottom-left-radius: 95px;
+  font-family: Roboto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+  
+  #back-button, #home-button {
+    position: absolute;
+    top: 20px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+  }
+  #back-button {
+    left: 20px;
+    background-color: #c2c2c2;
+    color: black;
+  }
+  
+  #home-button {
+    right: 20px;
+    background-color: #5e5a6b;
+    color: white;
+  }
+
+#label-button, input
+{
+  margin: 20px;
+  border-radius: 10px;
+  height: 30px;
+} 
+
+#label-button
+{
+  width: 200px;
+  background-color: rgb(0, 0, 255, 0.8);
+  border-style: none;
+  color: white;
+  border-radius: 10px;
+}
+
+input
+{
+  width: 500px;
+  text-align: center;
+  border-style: none;
+  background-color: #ffffff;
+}
+
+input::placeholder {
+  color: #000000;
+}
+
+#reg-button
+{
+  height: 40px;
+  width: 200px;
+  margin-top: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: aqua;
+  border-style: none;
+}

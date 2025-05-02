@@ -1,0 +1,144 @@
+.homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('C:\Users\Piyumal\Desktop\SA Skill Swap\SkillSwap\frontend\public\1.jfif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    filter: brightness(0.25);
+  }
+
+  .background {
+    text-align: center;
+  }
+  
+  .title {        
+    font-size: 200px;
+    font-weight: bold;
+    color: transparent; 
+    background-clip: text; 
+    background-image: url('C:\Users\Piyumal\Desktop\SA Skill Swap\SkillSwap\frontend\public\4.jfif'); 
+    background-size: cover; 
+    text-align: center;
+    text-transform: uppercase; 
+  }
+
+  
+  .subtext-top {
+    font-size: 24px;
+    font-family: Acme;
+    color: #FFF300; 
+    margin: 10px 0;
+  }
+  
+  .subtext-bottom {
+    font-size: 1.5rem;
+    color: #32CD32; 
+    margin: 10px 0;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  .sign-up-btn, .sign-in-btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+  }
+  
+  .sign-up-btn {
+    background-color: #32CD32; 
+    color: white;
+  }
+  
+  .sign-in-btn {
+    background-color: #FFD700; 
+    color: white;
+  }
+   */
+
+/* .homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('C:\Users\Piyumal\Desktop\SA Skill Swap\SkillSwap\frontend\public\1.jfif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    filter: brightness(0.25);
+    align-items: center;
+}
+#subtext-top{
+    font-size: 24px;
+    font-family: Acme;
+    color: #FFF300; 
+    margin: 10px 0;
+    position:absolute;  
+    margin-right: 45%;
+    margin-bottom: 25%;
+}
+
+#subtext-bottom {
+    font-size: 1.5rem;
+    color: #32CD32; 
+    margin: 10px 0;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 15%;
+  }
+
+#sign-up-btn {
+    background-color: #E0B56A; 
+    color: white;
+    margin-right: 100px;
+
+  }
+  
+#sign-in-btn {
+    background-color: #08C89C; 
+    color: white;
+    
+  }
+
+#sign-up-btn, #sign-in-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 30%;
+    
+    
+    
+}
+#title {        
+    font-size: 128px;
+    font-weight: bold;
+    color: transparent; 
+    background-clip: text; 
+    background-image: url('C:\Users\Piyumal\Desktop\SA Skill Swap\SkillSwap\frontend\public\4.jfif'); 
+    background-size: cover; 
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+    
+  }
+
+
+.body
+{
+    background-image: url('C:\Users\Piyumal\Desktop\SA Skill Swap\SkillSwap\frontend\public\4.jfif');
+    
+}
